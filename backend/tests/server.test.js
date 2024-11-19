@@ -50,7 +50,7 @@ describe('API Routes Integration Tests', () => {
         .post('/api/userroute')
         .send(userData);
 
-      expect(response.status).toBe(201);  // Created
+      expect(response.status).toBe(201);  
       expect(response.body).toHaveProperty('_id');
       expect(response.body.username).toBe(userData.username);
       expect(response.body.email).toBe(userData.email);

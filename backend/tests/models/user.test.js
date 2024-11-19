@@ -24,8 +24,8 @@ describe('User Model Tests', () => {
     });
 
     const savedUser = await user.save();
-    expect(savedUser.username).toBe('john_doe');
-    expect(savedUser.email).toBe('johndoe@example.com');
+    expect(savedUser.username).toBe('vinitha');
+    expect(savedUser.email).toBe('vinitha@example.com');
   });
 
   it('should fail when required fields are missing', async () => {
