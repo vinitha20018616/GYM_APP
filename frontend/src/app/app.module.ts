@@ -8,6 +8,9 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component'; 
 import { RegisterComponent } from './register/register.component'; 
 import { HomeComponent } from './home/home.component'; 
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +22,9 @@ import { HomeComponent } from './home/home.component';
     FormsModule,          
     LoginComponent,       
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   providers: [
     provideClientHydration(),
