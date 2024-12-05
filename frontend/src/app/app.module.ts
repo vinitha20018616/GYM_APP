@@ -10,6 +10,7 @@ import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component'; 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { BmiComponent } from './bmi/bmi.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     RegisterComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BmiComponent
   ],
   providers: [
     provideClientHydration(),
