@@ -5,6 +5,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { MainLayoutComponent } from './layouts/main-layout/main-layout.component';
 import { BmiComponent } from './bmi/bmi.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 const routes: Routes = [
@@ -17,7 +19,9 @@ const routes: Routes = [
     component: MainLayoutComponent,
     children: [
       { path: 'home', component: HomeComponent },
-      { path: 'bmi', component: BmiComponent}
+      { path: 'bmi', component: BmiComponent},
+      { path: 'about-us', component: AboutUsComponent},
+      { path: 'contact-us', component: ContactUsComponent}
       
     ],
   },
