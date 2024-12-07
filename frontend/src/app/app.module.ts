@@ -14,11 +14,13 @@ import { BmiComponent } from './bmi/bmi.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TaskRoomComponent } from './task-room/task-room.component';
+import { WorkoutComponent } from './my-workouts/my-workouts.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent 
+    AppComponent,
+     
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,9 @@ import { TaskRoomComponent } from './task-room/task-room.component';
     BmiComponent,
     AboutUsComponent,
     ContactUsComponent,
-    TaskRoomComponent
+    TaskRoomComponent,
+    WorkoutComponent
+    
   ],
   providers: [
     provideClientHydration(),

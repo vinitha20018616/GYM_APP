@@ -8,6 +8,7 @@ import { BmiComponent } from './bmi/bmi.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TaskRoomComponent } from './task-room/task-room.component';
+import { WorkoutComponent } from './my-workouts/my-workouts.component';
 
 
 const routes: Routes = [
@@ -23,7 +24,8 @@ const routes: Routes = [
       { path: 'bmi', component: BmiComponent},
       { path: 'about-us', component: AboutUsComponent},
       { path: 'contact-us', component: ContactUsComponent},
-      { path: 'task-room', component: TaskRoomComponent}
+      { path: 'task-room', component: TaskRoomComponent},
+      { path: 'my-workouts', component: WorkoutComponent}
       
     ],
   },
