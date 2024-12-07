@@ -7,6 +7,7 @@ import { MainLayoutComponent } from './layouts/main-layout/main-layout.component
 import { BmiComponent } from './bmi/bmi.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { TaskRoomComponent } from './task-room/task-room.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
       { path: 'home', component: HomeComponent },
       { path: 'bmi', component: BmiComponent},
       { path: 'about-us', component: AboutUsComponent},
-      { path: 'contact-us', component: ContactUsComponent}
+      { path: 'contact-us', component: ContactUsComponent},
+      { path: 'task-room', component: TaskRoomComponent}
       
     ],
   },

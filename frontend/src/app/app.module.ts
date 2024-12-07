@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BmiComponent } from './bmi/bmi.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { TaskRoomComponent } from './task-room/task-room.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FooterComponent,
     BmiComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    TaskRoomComponent
   ],
   providers: [
     provideClientHydration(),
