@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BmiComponent } from './bmi/bmi.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     HeaderComponent,
     FooterComponent,
     BmiComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ContactUsComponent
   ],
   providers: [
     provideClientHydration(),
