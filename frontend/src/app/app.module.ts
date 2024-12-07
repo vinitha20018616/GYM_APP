@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BmiComponent } from './bmi/bmi.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { BmiComponent } from './bmi/bmi.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    BmiComponent
+    BmiComponent,
+    AboutUsComponent
   ],
   providers: [
     provideClientHydration(),
